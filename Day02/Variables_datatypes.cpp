@@ -26,7 +26,6 @@ int main()
     cout << "Endl is similar to /n.Both will change the line." << endl<<endl;
 
     cout << "Rules of declaring a variable:";
-
     cout << "1.Every variable must have a data type (e.g., int, float, char)." << endl;
     cout << "2.Names can include letters, digits, and underscores." << endl;
     cout << "3.A name cannot start with a digit." << endl;
