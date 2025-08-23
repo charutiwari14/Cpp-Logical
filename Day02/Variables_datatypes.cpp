@@ -28,22 +28,13 @@ int main()
     cout << "Rules of declaring a variable:";
 
     cout << "1.Every variable must have a data type (e.g., int, float, char)." << endl;
-
     cout << "2.Names can include letters, digits, and underscores." << endl;
-
     cout << "3.A name cannot start with a digit." << endl;
-
     cout << "4.Spaces are not allowed in variable names." << endl;
-
     cout << "5.C++ is case-sensitive (num, Num, NUM are different)." << endl;
-
     cout << "6.Keywords (like int, for, while) cannot be used as names." << endl;
-
     cout << "7.It can be initialized at declaration." << endl;
-
     cout << "8.Always generate meaningful, descriptive names for readability." << endl;
-
     cout << "9.Local variables exist inside functions; global variables exist outside." << endl;
-
     cout << "10.Following rules avoids errors and improves code quality." << endl;
 }
