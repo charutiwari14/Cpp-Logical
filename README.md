@@ -1,6 +1,6 @@
 # 🚀 My Programming Journey in C++
 
-Today, I started learning C++ learning session where I understood why **programming is such an important skill**.  
+Today, I started learning C++ where I understood why **programming is such an important skill**.  
 
 As a beginner, I realized that:
 - Programming helps us **solve real-world problems** step by step.
