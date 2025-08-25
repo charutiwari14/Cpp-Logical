@@ -1,23 +1,35 @@
+// Check whether a number between 1 to 100 is a prime number (use conditionals, not loops for multiple tests).
+
+
 #include<iostream>
 using namespace std;
 
-int main(){
-    // Check whether a number is positive, negative, or zero
-    int num;
-    cout<<"Enter a number:";
-    cin>>num;
+int main() {
+    int n;
+    cout << "Enter a number between 1 to 100: ";
+    cin >> n;
 
-    if (num>0)
-    {
-        cout<<"Positive";
+    if (n < 1|| n>100-9) {
+        cout << "Enter between 1 and 100";
     }
-    else if (num<0)
-    {
-        cout<<"Negative";
+    else if (n == 2 || n == 3 || n == 5 || n == 7) {
+        cout << "Prime";
     }
-    else
-    {
-        cout<<"Zero";
+    else if (n % 2 == 0) {
+        cout << "Not Prime";
     }
+    else if (n % 3 == 0) {
+        cout << "Not Prime";
+    }
+    else if (n % 5 == 0) {
+        cout << "Not Prime";
+    }
+    else if (n % 7 == 0) {
+        cout << "Not Prime";
+    }
+    else {
+        cout << "Prime";
+    }
+
     return 0;
 }
