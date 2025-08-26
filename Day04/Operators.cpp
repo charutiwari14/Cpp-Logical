@@ -22,4 +22,8 @@ int main(){
     cout<<"(c<d)="<<(c<d)<<" Lesser than"<<endl;
 
     cout<<endl;
+
+    cout<<"Logical Operators"<<endl;
+    cout<<"&:AND,||:OR,!:NOT";
+    cout<<"Used to combine multiple conditions/constraints. Logical Operators returns either 0 or 1, it depends on whether the expression result is true or false";
 }
